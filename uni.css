@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(21, 21, 21);
+}
+.body2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    height: 70vh;
+}
+.body2 input{
+    height: 6vh;
+    width: 30vw;
+    font-size: 3vh;
+    outline: none;
+    border-bottom: 1.4px solid grey;
+}
+.body2 .suggest{
+    color: slategray;
+    height: 30vh;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    overflow: auto;
+    overflow-x: hidden;
+    background-color: white;
+}
+.suggest div{
+    font-size: 2vh;
+    width: 29vw;
+}
+
