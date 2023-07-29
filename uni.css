@@ -30,7 +30,7 @@ body{
     font-size: 2vh;
     width: 29vw;
 }
-@media screen and (min-width: 675.3px){
+@media screen and (max-width: 675.3px){
     .body2 input{
         width: 40vw;
     }
@@ -42,6 +42,7 @@ body{
     .body2 input{
         height: 4vh;
         width: 60vw;
+        font-size: 3vh;
     }
     .body2 .suggest{
         width: 60vw;
