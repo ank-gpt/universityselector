@@ -11,14 +11,15 @@ body{
 .body2 input{
     height: 6vh;
     width: 30vw;
-    font-size: 3vh;
+    font-size: 2.1vw;
     outline: none;
     border-bottom: 1.4px solid grey;
 }
 .body2 .suggest{
     color: slategray;
     height: 30vh;
-    display: flex;
+    width: 30vw;
+    display: none;
     flex-flow: column;
     align-items: center;
     overflow: auto;
@@ -28,5 +29,24 @@ body{
 .suggest div{
     font-size: 2vh;
     width: 29vw;
+}
+@media screen and (max-width: 1080px){
+    .body2 input{
+        width: 40vw;
+    }
+    .body2 .suggest{
+        width: 40vw;
+    }
+}
+@media screen and (max-width: 675.2px){
+    .body2 input{
+        width: 60vw;
+    }
+    .body2 .suggest{
+        width: 60vw;
+    }
+    ::placeholder{
+        font-size: 2.4vh;
+    }
 }
 
